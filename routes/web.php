@@ -16,23 +16,17 @@ use Illuminate\Support\Facades\Auth;
 */
 
 Route::get('/', function () {
-    return view('layout.master');
+    return view('auth.login');
 });
 
 // Route::get('/', function () {
 //     return view('reservasi_onduty.index');    
 // });
 
-Route::get('/master', function () {
-    return view('layout.master');
-});
 
 Route::resource('tiket_onduty', TiketonDutyController::class);
 
 
-Route::get('/tes', function () {
-    return view('layout.master');
-});
 
 Auth::routes();
 

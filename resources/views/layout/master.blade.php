@@ -70,8 +70,6 @@
       <div class="card">
         <div class="card-header">
           <h3 class="card-title"> @yield('head')</h3>
-
-        
         </div>
         <div class="card-body">
           @yield('content')

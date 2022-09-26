@@ -15,6 +15,6 @@ class Maskapai extends Model
 
     public function on_dutys() {
 
-        return $this->hasMany('TiketonDuty');
+        return $this->hasMany(TiketonDuty::class);
     }
 }

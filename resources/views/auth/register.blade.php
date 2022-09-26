@@ -1,6 +1,45 @@
 @extends('layouts.app')
 
 @section('content')
+<link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="{{ asset('template/dist/landing_page/css/font-awesome.css') }}">
+
+    <link rel="stylesheet" href="{{ asset('template/dist/landing_page/css//templatemo-breezed.css') }}">
+
+    <link rel="stylesheet" href="{{ asset('template/dist/landing_page/css/owl-carousel.css') }}">
+
+    <link rel="stylesheet" href="{{ asset('template/dist/landing_page/css/lightbox.css') }}">
+<style>
+    body {
+        background-image: url("{{ asset('template/dist/img/home.png') }}");
+        /* background-size: cover; */
+    }
+
+    footer {
+        position: fixed;
+        text-align: center;
+        font-size: 14px;
+        bottom: 0;
+        width: 100%;
+        height: 10px;   /* Height of the footer  */
+        background: transparent;
+/* 
+        background-color: #222;
+    color: #fff;
+    font-size: 14px;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 999; */
+    }
+    
+</style>
+
+
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
@@ -74,4 +113,15 @@
         </div>
     </div>
 </div>
+<br><br><br><br><br>
+
+ <footer class="main-footer">
+    <div class="float-right d-none d-sm-block">
+        <br>
+      <b>Version</b> 0.0.1
+   
+    <strong>Copyright &copy;<a href="https://www.linkedin.com/in/detinadra/">IT Corp. 2022</a>.</strong> All rights reserved.
+    </div>
+  </footer>
+
 @endsection

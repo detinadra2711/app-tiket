@@ -13,8 +13,12 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
-                    {{ __('You are logged in!') }}
+                        @can('isAdmin')
+                            Selamat datang Admin!
+                        @elsecan('isUser')
+                        Selamat datang User!
+                        @endcan
+                    {{-- {{ __('You are logged in!') }} --}}
                 </div>
             </div>
         </div>

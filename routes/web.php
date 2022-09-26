@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\TiketonDutyController;
+use App\Http\Controllers\TiketoffDutyController;
 use Illuminate\Support\Facades\Auth;
 
 /*
@@ -25,7 +26,7 @@ Route::get('/', function () {
 
 
 Route::resource('tiket_onduty', TiketonDutyController::class);
-
+Route::resource('tiket_offduty', TiketoffDutyController::class);
 
 
 Auth::routes();

@@ -31,11 +31,13 @@ LIST OF OFF DUTY RESERVATION
       <th scope="col">Origin</th>
       <th scope="col">Date</th>
       <th scope="col">Flight</th>
-      <th scope="col">Time</th>
+      <th scope="col" style="text-align:center">Departure Time</th>
+      <th scope="col" style="text-align:center">Arrival Time</th>
       <th scope="col">Maskapai</th>
       <th scope="col">Date</th>
       <th scope="col">Flight</th>
-      <th scope="col">Time</th>
+      <th scope="col" style="text-align:center">Departure Time</th>
+      <th scope="col" style="text-align:center">Arrival Time</th>
       <th scope="col">Maskapai</th>
       <th scope="col">Akomodasi</th>
       <th scope="col">Status</th>
@@ -54,11 +56,13 @@ LIST OF OFF DUTY RESERVATION
             <td>{{ $value->origin }}</td>
             <td>{{ $value->date }}</td>
             <td>{{ $value->flight }}</td>
-            <td>{{ $value->time }}</td>
+            <td>{{ $value->departure_time }}</td>
+            <td>{{ $value->arrival_time }}</td>
             <td>{{ $value->maskapai}}</td>
             <td>{{ $value->date_2 }}</td>
             <td>{{ $value->flight_2 }}</td>
-            <td>{{ $value->time_2 }}</td>
+            <td>{{ $value->departure_time2 }}</td>
+            <td>{{ $value->arrival_time2 }}</td>
             <td>{{ $value->maskapai_2 }}</td>
             <td>{{ $value->akomodasi }}</td>
             <td>{{ $value->status }}</td>

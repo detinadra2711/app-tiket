@@ -45,13 +45,11 @@ ON DUTY FLIGHT RESERVATION
         <div class="alert alert-danger">{{  $message }}</div>
         @enderror
     <div class="form-group">
-        <label>Time</label>
-        <input type="time" name="time" class="form-control" placeholder="time" required="">
-        {{-- <input type="time" name="time" class="form-control" placeholder="time" required=""> --}}
+        <label>Departure Time</label>
+        <input type="time" name="departure_time" class="form-control" placeholder="departure time" required="">
+         <label>Arrival Time</label>
+        <input type="time" name="arrival_time" class="form-control" placeholder="arrival_time" required="">
     </div>
-        @error('time')
-        <div class="alert alert-danger">{{  $message }}</div>
-        @enderror
     <div class="form-group">
         <label>Maskapai</label>
         <select name="maskapai" class="form-control" id="">
@@ -79,13 +77,11 @@ ON DUTY FLIGHT RESERVATION
         <div class="alert alert-danger">{{  $message }}</div>
         @enderror
     <div class="form-group">
-        <label>Time</label>
-        <input type="time" name="time_2" class="form-control" placeholder="time" >
-        {{-- <input type="time" name="time" class="form-control" placeholder="time" required=""> --}}
+        <label>Departure Time</label>
+        <input type="time" name="departure_time2" class="form-control" placeholder="departure time" >
+        <label>Arrival Time</label>
+        <input type="time" name="arrival_time2" class="form-control" placeholder="arrival_time2" >
     </div>
-        @error('time_2')
-        <div class="alert alert-danger">{{  $message }}</div>
-        @enderror
     <div class="form-group">
         <label>Maskapai</label>
         <select name="maskapai_2" class="form-control" id="">

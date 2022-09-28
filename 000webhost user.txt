@@ -1,0 +1,11 @@
+000webhost
+
+web name: tiket-job
+password: jobgroupA
+
+
+DB webhost
+DB username: job | id19625098_job
+DB name: tiket_job | id19625098_tiket_job
+DB host: localhost
+DB pass: HpE+T_M_bTo1FFA~
